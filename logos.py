@@ -23,7 +23,7 @@ from PyQt5.QtCore import Qt, QFile, QTextStream
 from PyQt5.Qsci import *
 from datetime import datetime
 
-version = "0.3.3"
+version = "0.3.4"
 
 global filenamen
 filenamen = ""
@@ -170,7 +170,7 @@ def About_p(win):
 		<h2 style="text-align:center;">CREDITS</h2>
 		<p style="font-size:15px;">Logos would not look like this without help and/or assistance of those people:</p>
 		<p style="font-size:15px;"><a href="https://buz.info.pl">Konrad Buzak</a><br/>
-		Igor Sobciński<br/>
+		<b>Igor Sobociński</b><br/>
 		<p style="font-size:15px;">Logos uses modified and/or unmodified parts of code and other resources from the following sources:</p>
 		<p style="font-size:15px;"><a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus Icon Theme</a> under <a href="https://www.gnu.org/licenses/gpl-3.0.html">the GNU GPL v3.0</a><br/>
 		<a href="https://riverbankcomputing.com/software/qscintilla/intro">QScintilla</a> under <a href="https://www.gnu.org/licenses/gpl-3.0.html">the GNU GPL v3.0</a><br/>
